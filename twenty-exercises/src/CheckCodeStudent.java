@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class CheckCodeStudent {
 
-    static final String CODE_STUDENT_REGEX = "^B\\d*$";
+    static final String CODE_STUDENT_REGEX = "^B170\\d*$";
 
     public static boolean isStudentCode(String studentCode){
         Pattern pattern  = Pattern.compile(CODE_STUDENT_REGEX);
